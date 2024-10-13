@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #006341; /* Starbucks green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #006341;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #2E8B57;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('coffee-shop-background.jpg'); /* Placeholder image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Main Content */
+.content {
+    padding: 40px;
+    text-align: center;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    color: #006341;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #006341;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
